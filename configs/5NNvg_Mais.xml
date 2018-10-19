@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cloches>
+  <cfg id="1" x0="0" y0="100"  v="5" h="7" id_cible="1" couleur_cible="#000000" couleur_distracteur="#000000" gradient="false" scintillement="true" gradient_sc="true" frequence_sc="10" delta_sc="5">
+    <items>
+      <item id="1" url="./img/maison.gif" cible="true"/>
+      <item id="2" url="./img/arbre.gif" cible="false"/>
+      <item id="3" url="./img/oiseau.gif" cible="false"/>
+      <item id="4" url="./img/pomme.gif" cible="false"/>
+      <item id="5" url="./img/theiere.gif" cible="false"/>
+      <item id="6" url="./img/scie.gif" cible="false"/>
+      <item id="7" url="./img/voiture.gif" cible="false"/>
+      <item id="8" url="./img/cheval.gif" cible="false"/>
+      <item id="9" url="./img/guitare.gif" cible="false"/>
+    </items>  
+  </cfg>
+  
+   <blocs>
+    <bloc id="1">
+      <case id="1" id_item="2" dx="20" dy="0"/>       
+      <case id="2" id_item="7" dx="0" dy="0"/>        
+      <case id="3" id_item="6" dx="20" dy="20"/>      
+      <case id="4" id_item="1" dx="0" dy="20"/>       
+      <case id="5" id_item="3" dx="0" dy="10"/>       
+      <case id="6" id_item="8" dx="0" dy="0"/>        
+      <case id="7" id_item="4" dx="10" dy="10"/>      
+      <case id="8" id_item="9" dx="0" dy="0"/>        
+      <case id="9" id_item="5" dx="20" dy="20"/>      
+    </bloc>
+    <bloc id="2">
+      <case id="1" id_item="3" dx="20" dy="0"/>       
+      <case id="2" id_item="7" dx="0" dy="20"/>       
+      <case id="3" id_item="9" dx="0" dy="20"/>       
+      <case id="4" id_item="8" dx="10" dy="10"/>      
+      <case id="5" id_item="4" dx="20" dy="0"/>       
+      <case id="6" id_item="1" dx="0" dy="0"/>        
+      <case id="7" id_item="5" dx="20" dy="20"/>      
+      <case id="8" id_item="2" dx="0" dy="0"/>        
+      <case id="9" id_item="6" dx="20" dy="0"/>       
+    </bloc>
+ 
+     <bloc id="3">
+      <case id="1" id_item="9" dx="0" dy="0"/>        
+      <case id="2" id_item="6" dx="0" dy="20"/>       
+      <case id="3" id_item="2" dx="20" dy="10"/>      
+      <case id="4" id_item="3" dx="20" dy="20"/>      
+      <case id="5" id_item="8" dx="5" dy="5"/>        
+      <case id="6" id_item="1" dx="0" dy="0"/>        
+      <case id="7" id_item="7" dx="10" dy="10"/>      
+      <case id="8" id_item="5" dx="0" dy="0"/>        
+      <case id="9" id_item="4" dx="20" dy="20"/>      
+    </bloc>
+    <bloc id="4">
+      <case id="1" id_item="1" dx="0" dy="0"/>        
+      <case id="2" id_item="5" dx="0" dy="20"/>       
+      <case id="3" id_item="3" dx="20" dy="20"/>      
+      <case id="4" id_item="9" dx="10" dy="10"/>      
+      <case id="5" id_item="2" dx="20" dy="0"/>       
+      <case id="6" id_item="8" dx="0" dy="0"/>        
+      <case id="7" id_item="6" dx="20" dy="20"/>      
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="4" dx="20" dy="0"/>       
+    </bloc>    
+    <bloc id="5">
+      <case id="1" id_item="4" dx="20" dy="0"/>       
+      <case id="2" id_item="8" dx="0" dy="0"/>        
+      <case id="3" id_item="7" dx="5" dy="10"/>       
+      <case id="4" id_item="1" dx="0" dy="20"/>      
+      <case id="5" id_item="6" dx="5" dy="5"/>        
+      <case id="6" id_item="3" dx="0" dy="0"/>        
+      <case id="7" id_item="2" dx="20" dy="20"/>      
+      <case id="8" id_item="9" dx="0" dy="0"/>        
+      <case id="9" id_item="5" dx="20" dy="10"/>      
+    </bloc>   
+    <bloc id="6">
+      <case id="1" id_item="6" dx="0" dy="20"/>       
+      <case id="2" id_item="2" dx="0" dy="0"/>        
+      <case id="3" id_item="8" dx="0" dy="20"/>       
+      <case id="4" id_item="3" dx="20" dy="0"/>       
+      <case id="5" id_item="7" dx="20" dy="20"/>      
+      <case id="6" id_item="5" dx="0" dy="0"/>        
+      <case id="7" id_item="9" dx="20" dy="0"/>       
+      <case id="8" id_item="1" dx="0" dy="0"/>        
+      <case id="9" id_item="4" dx="0" dy="20"/>       
+    </bloc>   
+    <bloc id="7">
+      <case id="1" id_item="2" dx="10" dy="10"/>      
+      <case id="2" id_item="6" dx="0" dy="0"/>        
+      <case id="3" id_item="4" dx="20" dy="20"/>      
+      <case id="4" id_item="9" dx="10" dy="10"/>      
+      <case id="5" id_item="7" dx="0" dy="0"/>        
+      <case id="6" id_item="1" dx="0" dy="0"/>        
+      <case id="7" id_item="5" dx="20" dy="10"/>      
+      <case id="8" id_item="3" dx="0" dy="0"/>        
+      <case id="9" id_item="8" dx="10" dy="20"/>      
+    </bloc>  
+
+    <bloc id="8">
+      <case id="1" id_item="1" dx="0" dy="0"/>       
+      <case id="2" id_item="3" dx="0" dy="20"/>       
+      <case id="3" id_item="8" dx="20" dy="20"/>      
+      <case id="4" id_item="4" dx="10" dy="10"/>      
+      <case id="5" id_item="9" dx="20" dy="0"/>       
+      <case id="6" id_item="7" dx="0" dy="0"/>        
+      <case id="7" id_item="5" dx="20" dy="20"/>      
+      <case id="8" id_item="6" dx="0" dy="0"/>        
+      <case id="9" id_item="2" dx="20" dy="0"/>       
+    </bloc>
+ 
+    <bloc id="9">
+      <case id="1" id_item="4" dx="20" dy="10"/>      
+      <case id="2" id_item="9" dx="0" dy="0"/>        
+      <case id="3" id_item="2" dx="5" dy="20"/>       
+      <case id="4" id_item="5" dx="10" dy="10"/>      
+      <case id="5" id_item="1" dx="0" dy="5"/>       
+      <case id="6" id_item="3" dx="0" dy="0"/>        
+      <case id="7" id_item="6" dx="10" dy="20"/>      
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="8" dx="0" dy="20"/>       
+    </bloc>
+     <bloc id="10">
+      <case id="1" id_item="1" dx="0" dy="20"/>       
+      <case id="2" id_item="6" dx="0" dy="0"/>        
+      <case id="3" id_item="8" dx="0" dy="0"/>        
+      <case id="4" id_item="2" dx="0" dy="20"/>       
+      <case id="5" id_item="7" dx="20" dy="0"/>       
+      <case id="6" id_item="3" dx="0" dy="20"/>       
+      <case id="7" id_item="5" dx="10" dy="20"/>      
+      <case id="8" id_item="4" dx="0" dy="0"/>        
+      <case id="9" id_item="9" dx="20" dy="20"/>      
+    </bloc>
+    <bloc id="11">
+      <case id="1" id_item="9" dx="0" dy="10"/>       
+      <case id="2" id_item="5" dx="0" dy="0"/>        
+      <case id="3" id_item="6" dx="5" dy="20"/>       
+      <case id="4" id_item="8" dx="0" dy="20"/>       
+      <case id="5" id_item="4" dx="5" dy="15"/>       
+      <case id="6" id_item="2" dx="0" dy="0"/>        
+      <case id="7" id_item="1" dx="0" dy="10"/>      
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="3" dx="0" dy="20"/>       
+    </bloc>    
+    <bloc id="12">
+      <case id="1" id_item="9" dx="0" dy="20"/>       
+      <case id="2" id_item="6" dx="20" dy="0"/>       
+      <case id="3" id_item="8" dx="20" dy="20"/>      
+      <case id="4" id_item="2" dx="20" dy="0"/>       
+      <case id="5" id_item="3" dx="0" dy="20"/>       
+      <case id="6" id_item="5" dx="0" dy="0"/>        
+      <case id="7" id_item="7" dx="0" dy="20"/>       
+      <case id="8" id_item="1" dx="0" dy="0"/>        
+      <case id="9" id_item="4" dx="0" dy="20"/>       
+    </bloc>   
+    <bloc id="13">
+      <case id="1" id_item="5" dx="0" dy="20"/>       
+      <case id="2" id_item="8" dx="0" dy="0"/>        
+      <case id="3" id_item="1" dx="0" dy="0"/>       
+      <case id="4" id_item="7" dx="10" dy="10"/>      
+      <case id="5" id_item="6" dx="20" dy="20"/>      
+      <case id="6" id_item="4" dx="0" dy="0"/>        
+      <case id="7" id_item="2" dx="20" dy="10"/>      
+      <case id="8" id_item="9" dx="0" dy="0"/>        
+      <case id="9" id_item="3" dx="10" dy="20"/>      
+    </bloc>   
+    <bloc id="14">
+      <case id="1" id_item="8" dx="20" dy="20"/>      
+      <case id="2" id_item="1" dx="0" dy="0"/>        
+      <case id="3" id_item="4" dx="0" dy="20"/>       
+      <case id="4" id_item="2" dx="0" dy="20"/>       
+      <case id="5" id_item="7" dx="0" dy="20"/>       
+      <case id="6" id_item="3" dx="15" dy="0"/>       
+      <case id="7" id_item="5" dx="0" dy="0"/>        
+      <case id="8" id_item="6" dx="0" dy="20"/>       
+      <case id="9" id_item="9" dx="20" dy="0"/>       
+    </bloc>   
+
+    <bloc id="15">
+      <case id="1" id_item="2" dx="0" dy="0"/>        
+      <case id="2" id_item="7" dx="20" dy="20"/>      
+      <case id="3" id_item="6" dx="0" dy="0"/>        
+      <case id="4" id_item="9" dx="15" dy="20"/>      
+      <case id="5" id_item="5" dx="0" dy="0"/>        
+      <case id="6" id_item="8" dx="0" dy="20"/>       
+      <case id="7" id_item="1" dx="0" dy="10"/>      
+      <case id="8" id_item="4" dx="0" dy="0"/>        
+      <case id="9" id_item="3" dx="10" dy="20"/>      
+    </bloc>
+    <bloc id="16">
+      <case id="1" id_item="2" dx="0" dy="20"/>       
+      <case id="2" id_item="8" dx="0" dy="0"/>        
+      <case id="3" id_item="7" dx="5" dy="5"/>        
+      <case id="4" id_item="9" dx="20" dy="10"/>      
+      <case id="5" id_item="1" dx="5" dy="5"/>        
+      <case id="6" id_item="4" dx="0" dy="0"/>        
+      <case id="7" id_item="3" dx="20" dy="20"/>      
+      <case id="8" id_item="6" dx="0" dy="0"/>        
+      <case id="9" id_item="5" dx="10" dy="20"/>      
+    </bloc>
+     <bloc id="17">
+      <case id="1" id_item="9" dx="0" dy="20"/>       
+      <case id="2" id_item="4" dx="0" dy="0"/>        
+      <case id="3" id_item="1" dx="0" dy="0"/>       
+      <case id="4" id_item="8" dx="20" dy="0"/>       
+      <case id="5" id_item="6" dx="20" dy="20"/>      
+      <case id="6" id_item="3" dx="0" dy="20"/>       
+      <case id="7" id_item="7" dx="10" dy="10"/>      
+      <case id="8" id_item="5" dx="0" dy="0"/>        
+      <case id="9" id_item="2" dx="20" dy="20"/>      
+    </bloc>
+    <bloc id="18">
+      <case id="1" id_item="3" dx="20" dy="10"/>      
+      <case id="2" id_item="2" dx="0" dy="0"/>        
+      <case id="3" id_item="4" dx="5" dy="20"/>       
+      <case id="4" id_item="1" dx="0" dy="10"/>      
+      <case id="5" id_item="6" dx="5" dy="20"/>       
+      <case id="6" id_item="8" dx="0" dy="0"/>        
+      <case id="7" id_item="9" dx="20" dy="10"/>      
+      <case id="8" id_item="5" dx="0" dy="0"/>        
+      <case id="9" id_item="7" dx="10" dy="20"/>      
+    </bloc>    
+    <bloc id="19">
+      <case id="1" id_item="1" dx="0" dy="0"/>       
+      <case id="2" id_item="6" dx="0" dy="20"/>       
+      <case id="3" id_item="3" dx="0" dy="0"/>        
+      <case id="4" id_item="4" dx="10" dy="10"/>      
+      <case id="5" id_item="8" dx="0" dy="0"/>        
+      <case id="6" id_item="9" dx="20" dy="20"/>      
+      <case id="7" id_item="2" dx="20" dy="0"/>       
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="5" dx="0" dy="20"/>       
+    </bloc>   
+    <bloc id="20">
+      <case id="1" id_item="1" dx="0" dy="0"/>       
+      <case id="2" id_item="4" dx="0" dy="0"/>        
+      <case id="3" id_item="7" dx="5" dy="20"/>       
+      <case id="4" id_item="2" dx="20" dy="0"/>       
+      <case id="5" id_item="8" dx="5" dy="10"/>       
+      <case id="6" id_item="9" dx="0" dy="0"/>        
+      <case id="7" id_item="3" dx="10" dy="20"/>      
+      <case id="8" id_item="6" dx="0" dy="0"/>        
+      <case id="9" id_item="5" dx="20" dy="10"/>      
+    </bloc>   
+       <bloc id="21">
+      <case id="1" id_item="8" dx="20" dy="0"/>       
+      <case id="2" id_item="3" dx="0" dy="0"/>        
+      <case id="3" id_item="5" dx="20" dy="20"/>      
+      <case id="4" id_item="1" dx="0" dy="20"/>       
+      <case id="5" id_item="2" dx="20" dy="0"/>       
+      <case id="6" id_item="7" dx="0" dy="0"/>        
+      <case id="7" id_item="4" dx="0" dy="10"/>       
+      <case id="8" id_item="6" dx="0" dy="0"/>        
+      <case id="9" id_item="9" dx="20" dy="20"/>      
+    </bloc>
+    <bloc id="22">
+      <case id="1" id_item="6" dx="20" dy="0"/>       
+      <case id="2" id_item="2" dx="0" dy="0"/>        
+      <case id="3" id_item="8" dx="0" dy="20"/>       
+      <case id="4" id_item="1" dx="0" dy="20"/>       
+      <case id="5" id_item="7" dx="10" dy="10"/>      
+      <case id="6" id_item="5" dx="0" dy="0"/>        
+      <case id="7" id_item="3" dx="10" dy="10"/>      
+      <case id="8" id_item="4" dx="0" dy="0"/>        
+      <case id="9" id_item="9" dx="0" dy="20"/>       
+    </bloc>
+     <bloc id="23">
+      <case id="1" id_item="8" dx="0" dy="0"/>        
+      <case id="2" id_item="9" dx="0" dy="20"/>       
+      <case id="3" id_item="5" dx="20" dy="10"/>      
+      <case id="4" id_item="3" dx="20" dy="20"/>      
+      <case id="5" id_item="1" dx="5" dy="5"/>        
+      <case id="6" id_item="6" dx="0" dy="20"/>       
+      <case id="7" id_item="2" dx="10" dy="10"/>      
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="4" dx="20" dy="20"/>      
+    </bloc>
+    <bloc id="24">
+      <case id="1" id_item="5" dx="20" dy="10"/>      
+      <case id="2" id_item="2" dx="0" dy="0"/>        
+      <case id="3" id_item="1" dx="0" dy="20"/>      
+      <case id="4" id_item="8" dx="20" dy="0"/>       
+      <case id="5" id_item="4" dx="0" dy="20"/>       
+      <case id="6" id_item="6" dx="0" dy="0"/>        
+      <case id="7" id_item="3" dx="10" dy="10"/>      
+      <case id="8" id_item="9" dx="0" dy="0"/>        
+      <case id="9" id_item="7" dx="0" dy="20"/>       
+    </bloc>    
+    <bloc id="25">
+      <case id="1" id_item="2" dx="0" dy="20"/>       
+      <case id="2" id_item="9" dx="0" dy="0"/>        
+      <case id="3" id_item="5" dx="0" dy="20"/>       
+      <case id="4" id_item="6" dx="10" dy="10"/>      
+      <case id="5" id_item="8" dx="20" dy="5"/>       
+      <case id="6" id_item="7" dx="0" dy="0"/>        
+      <case id="7" id_item="1" dx="0" dy="10"/>      
+      <case id="8" id_item="4" dx="0" dy="0"/>        
+      <case id="9" id_item="3" dx="10" dy="10"/>      
+    </bloc>   
+    <bloc id="26">
+      <case id="1" id_item="2" dx="0" dy="0"/>        
+      <case id="2" id_item="4" dx="10" dy="0"/>       
+      <case id="3" id_item="1" dx="0" dy="20"/>      
+      <case id="4" id_item="7" dx="20" dy="0"/>       
+      <case id="5" id_item="5" dx="0" dy="20"/>       
+      <case id="6" id_item="9" dx="0" dy="0"/>        
+      <case id="7" id_item="8" dx="0" dy="20"/>       
+      <case id="8" id_item="3" dx="0" dy="0"/>        
+      <case id="9" id_item="6" dx="20" dy="20"/>      
+    </bloc>   
+    <bloc id="27">
+      <case id="1" id_item="8" dx="20" dy="20"/>      
+      <case id="2" id_item="2" dx="0" dy="0"/>        
+      <case id="3" id_item="4" dx="20" dy="20"/>      
+      <case id="4" id_item="5" dx="10" dy="10"/>      
+      <case id="5" id_item="3" dx="20" dy="0"/>       
+      <case id="6" id_item="1" dx="0" dy="0"/>        
+      <case id="7" id_item="9" dx="20" dy="0"/>       
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="6" dx="0" dy="20"/>       
+    </bloc>   
+
+    <bloc id="28">
+      <case id="1" id_item="1" dx="0" dy="10"/>      
+      <case id="2" id_item="5" dx="0" dy="0"/>        
+      <case id="3" id_item="7" dx="0" dy="20"/>       
+      <case id="4" id_item="4" dx="10" dy="10"/>      
+      <case id="5" id_item="8" dx="0" dy="20"/>       
+      <case id="6" id_item="3" dx="0" dy="0"/>        
+      <case id="7" id_item="9" dx="10" dy="10"/>      
+      <case id="8" id_item="6" dx="0" dy="0"/>        
+      <case id="9" id_item="2" dx="20" dy="20"/>      
+    </bloc>
+ 
+    <bloc id="29">
+      <case id="1" id_item="2" dx="0" dy="0"/>        
+      <case id="2" id_item="6" dx="20" dy="20"/>      
+      <case id="3" id_item="3" dx="0" dy="20"/>       
+      <case id="4" id_item="9" dx="20" dy="20"/>      
+      <case id="5" id_item="1" dx="0" dy="0"/>        
+      <case id="6" id_item="5" dx="20" dy="0"/>       
+      <case id="7" id_item="8" dx="10" dy="10"/>      
+      <case id="8" id_item="4" dx="0" dy="0"/>        
+      <case id="9" id_item="7" dx="20" dy="20"/>      
+    </bloc>
+     <bloc id="30">
+      <case id="1" id_item="9" dx="20" dy="20"/>      
+      <case id="2" id_item="5" dx="0" dy="0"/>        
+      <case id="3" id_item="1" dx="5" dy="5"/>        
+      <case id="4" id_item="6" dx="20" dy="10"/>      
+      <case id="5" id_item="4" dx="5" dy="15"/>       
+      <case id="6" id_item="7" dx="0" dy="0"/>        
+      <case id="7" id_item="3" dx="20" dy="20"/>      
+      <case id="8" id_item="8" dx="0" dy="0"/>        
+      <case id="9" id_item="2" dx="10" dy="10"/>      
+    </bloc>
+    <bloc id="31">
+      <case id="1" id_item="1" dx="0" dy="20"/>      
+      <case id="2" id_item="6" dx="0" dy="0"/>        
+      <case id="3" id_item="7" dx="20" dy="0"/>       
+      <case id="4" id_item="5" dx="0" dy="0"/>        
+      <case id="5" id_item="8" dx="0" dy="20"/>       
+      <case id="6" id_item="4" dx="20" dy="20"/>      
+      <case id="7" id_item="9" dx="10" dy="10"/>      
+      <case id="8" id_item="3" dx="0" dy="0"/>        
+      <case id="9" id_item="2" dx="0" dy="0"/>        
+    </bloc>    
+    <bloc id="32">
+      <case id="1" id_item="6" dx="10" dy="10"/>      
+      <case id="2" id_item="1" dx="0" dy="0"/>        
+      <case id="3" id_item="9" dx="20" dy="20"/>      
+      <case id="4" id_item="3" dx="20" dy="0"/>       
+      <case id="5" id_item="2" dx="0" dy="20"/>       
+      <case id="6" id_item="7" dx="0" dy="0"/>        
+      <case id="7" id_item="4" dx="0" dy="0"/>        
+      <case id="8" id_item="5" dx="0" dy="0"/>        
+      <case id="9" id_item="8" dx="20" dy="20"/>      
+    </bloc>   
+    <bloc id="33">
+      <case id="1" id_item="9" dx="0" dy="0"/>        
+      <case id="2" id_item="4" dx="0" dy="0"/>        
+      <case id="3" id_item="5" dx="5" dy="20"/>       
+      <case id="4" id_item="6" dx="20" dy="20"/>      
+      <case id="5" id_item="2" dx="0" dy="0"/>        
+      <case id="6" id_item="3" dx="20" dy="0"/>       
+      <case id="7" id_item="1" dx="0" dy="20"/>       
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="8" dx="10" dy="10"/>      
+    </bloc>   
+    <bloc id="34">
+      <case id="1" id_item="3" dx="0" dy="0"/>        
+      <case id="2" id_item="5" dx="20" dy="0"/>       
+      <case id="3" id_item="4" dx="20" dy="20"/>      
+      <case id="4" id_item="1" dx="0" dy="0"/>        
+      <case id="5" id_item="8" dx="0" dy="10"/>       
+      <case id="6" id_item="6" dx="0" dy="20"/>       
+      <case id="7" id_item="2" dx="10" dy="10"/>      
+      <case id="8" id_item="7" dx="0" dy="0"/>        
+      <case id="9" id_item="9" dx="20" dy="20"/>      
+    </bloc>   
+    <bloc id="35">
+      <case id="1" id_item="3" dx="20" dy="0"/>       
+      <case id="2" id_item="5" dx="0" dy="0"/>        
+      <case id="3" id_item="2" dx="20" dy="20"/>      
+      <case id="4" id_item="7" dx="0" dy="20"/>       
+      <case id="5" id_item="6" dx="10" dy="10"/>      
+      <case id="6" id_item="8" dx="0" dy="0"/>        
+      <case id="7" id_item="9" dx="0" dy="10"/>       
+      <case id="8" id_item="4" dx="0" dy="0"/>        
+      <case id="9" id_item="1" dx="0" dy="20"/>      
+    </bloc>
+
+  </blocs>
+</cloches>

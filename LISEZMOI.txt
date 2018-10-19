@@ -1,0 +1,26 @@
+HISTORIQUE
+
+* v. 1.5 [03/04/2008]
+    - Les configurations sont ajoutées dans les résultats produits
+    - 3 valeurs {0, 10, 20} sont utilisées dans la génération des configurations 
+      pour les dx et dy 
+    - Le numéro de session est ajouté dans le Lanceur et dans le fichier de résultat
+      
+* v. 1.6 [11/04/2008] 
+    - Le fichier de résultat produit est de la forme suivante : 
+      Sujet_session_[condition]_config.xml
+      
+* v. 1.7 [29/04/2008]
+    - Le gradient peut se placer à gauche ou à droite pour la couleur et le vacillement (attribut gradient_gauche dans le fichier de configuration)
+
+* v. 1.8 [06/06/2008]
+	- Le bug des coordonnées (translation aléaatoire des coordonnées composant vers les coordonnées 'application') corrigé
+	
+* v. 1.9 [03/02/2009]	
+  - il est maintenant possible de créer des exercices de taille différente de 7x5 blocs
+  
+  v. 2.0 [20/03/2009]
+  - il est maintenant possible de déterminer la durée maximale de l'exercice
+  
+  v. 2.1 [29/03/2009]
+  - bugs corrigés
