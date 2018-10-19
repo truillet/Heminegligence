@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Heminégligence : test des cloches
-=======
 # Héminegligence : le test des cloches
 
 Le test des cloches est un test d’élimination permettant une évaluation quantitative et qualitative
