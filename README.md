@@ -1,4 +1,4 @@
-# Héminegligence : le test des cloches
+# Héminégligence : le test des cloches
 
 Le test des cloches est un test d’élimination permettant une évaluation quantitative et qualitative
 de la négligence visuelle à proximité de l’espace extra personnel.
